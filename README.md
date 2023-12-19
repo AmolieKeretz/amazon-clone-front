@@ -1,1 +1,1 @@
-# amaxzon-clone-front
+# amazon-clone-front

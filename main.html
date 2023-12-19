@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javaScript.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="navBar">
+            <div class="bar1">
+                <div class="logo" style="background-image: url(img/amazon_logo.png);"></div>
+                <div class="location">
+                    <i class="fa-solid fa-location-dot" id="licon"></i>
+                    <div class="same">
+                        <p id="deli">Deliver to</p>
+                        <p id="ind">India</p>
+                    </div>
+                </div>
+    
+                <div class="search">
+                    <select name="All" id="all" placeholder="All">
+                        <option>All Departments</option>
+                    </select>
+                    <input type="text" name="search" id="sch" placeholder="Search Amazon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+    
+                <div class="bar2">
+                    <div class="region">
+                        <div class="iconf" style="background-image: url(img/flag_icon.png);" ></div>
+                        <span>EN</span><i class="fa-solid fa-caret-down" style="color: #CCCCCC;"></i>
+                    </div>
+        
+                    <div class="signInAccount">
+                        <p id="sign">Hello, sign in</p>
+                        <p id="Account">Account & Lists <i class="fa-solid fa-caret-down" style="color: #CCCCCC;"></i></p>
+                    </div>
+        
+                    <div class="rNo">
+                        <p id="return">Retuns</p>
+                        <p id="order">& Orders</p>
+                    </div>
+        
+                    <div class="cart"><i class="fa-solid fa-cart-arrow-down"></i>Cart</div>
+                </div>
+                
+            </div>
+            
+            <div class="navBar2">
+                <a href="#" id="dropdownAll"><i class="fa-solid fa-bars"></i></a>
+                <span>All</span>
+                <div class="bar3">
+                    <a href="#" id="srt1">Today's Deals</a>
+                    <a href="#" id="srt1">Customer Service</a>
+                    <a href="#" id="srt1">Registry</a>
+                    <a href="#" id="srt1">Gift Cards</a>
+                    <a href="#" id="srt1">Sell</a>
+                </div>
+            </div>
+    </header>
+    <main>
+        <div class="body1">
+            <div class="background_img"></div>
+            <div class="amazonIndia">
+                <span>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.</span>
+                <a href="#">Click here to go to amazon.in</a>
+
+                <div class="container1">
+                    
+                    <div class="box_container">
+                        <span style="font-size: 21px; font-weight: 600;">Gaming accessories</span>
+                        <div class="box1" style="background-image: url(img/box1.jpg);"></div>
+                        <span id="box1">Headsets</span>
+                        <div class="box1" style="background-image: url(img/box1.jpg);"></div>
+                        <span id="box2">Headsets</span>
+                        <div class="box1" style="background-image: url(img/box1.jpg);"></div>
+                        <span id="box3">Headsets</span>
+                        <div class="box1" style="background-image: url(img/box1.jpg);"></div>
+                        <span id="box4">Headsets</span>
+                        <a href="#">See more</a>
+                    </div>
+                    <div class="box">
+                        <span style="font-size: 21px; font-weight: 600;">Toys Under $30</span>
+                        <div class="box2" style="background-image: url(img/box2.jpg);"></div>
+                        <a href="#" id="see_more">See more</a>
+                    </div>
+                    <div class="box">
+                        <span style="font-size: 21px; font-weight: 600;">Toys Under $30</span>
+                        <div class="box2" style="background-image: url(img/box2.jpg);"></div>
+                        <a href="#" id="see_more">See more</a>
+                    </div>
+                    <div class="box">
+                        <span style="font-size: 21px; font-weight: 600;">Toys Under $30</span>
+                        <div class="box2" style="background-image: url(img/box2.jpg);"></div>
+                        <a href="#" id="see_more">See more</a>
+                    </div>
+                    <div class="box">
+                        <span style="font-size: 21px; font-weight: 600;">Toys Under $30</span>
+                        <div class="box2" style="background-image: url(img/box2.jpg);"></div>
+                        <a href="#" id="see_more">See more</a>
+                    </div>
+                    <div class="box">
+                        <span style="font-size: 21px; font-weight: 600;">Toys Under $30</span>
+                        <div class="box2" style="background-image: url(img/box2.jpg);"></div>
+                        <a href="#" id="see_more">See more</a>
+                    </div>
+                    <div class="box">
+                        <span style="font-size: 21px; font-weight: 600;">Toys Under $30</span>
+                        <div class="box2" style="background-image: url(img/box2.jpg);"></div>
+                        <a href="#" id="see_more">See more</a>
+                    </div>
+                    <div class="box">
+                        <span style="font-size: 21px; font-weight: 600;">Toys Under $30</span>
+                        <div class="box2" style="background-image: url(img/box2.jpg);"></div>
+                        <a href="#" id="see_more">See more</a>
+                    </div>
+                </div>
+<!-- horizontal container -->
+                <div class="slider-container1">
+                    <!-- <button class="left-button" onclick="slide('left')"><i class="fa-solid fa-angle-left"></i></button> -->
+                    <div class="left-button"><button id="left-button"><i class="fa-solid fa-angle-left"></i></button></div>
+                    <div class="right-button"><button id="right-button"><i class="fa-solid fa-angle-right"></i></button></div>
+                    <span id="horiscrl">Frequently repurchased in Drugstore</span>
+                    <div class="slider-content">
+                        <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+                        <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+                        <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+                        <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+                        <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+                        <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+                        <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+
+                        <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+                        <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+                        <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+                        <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+                        <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+                        <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+                        <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+                    </div>
+                    <!-- <button class="right-button" onclick="slide('right')"><i class="fa-solid fa-angle-right"></i></button> -->
+                </div>
+
+
+                <div class="horizontal-scroll-container">
+                    <div class="horizontal-scroll">
+                        <div class="left-button"><button id="left-button"><i class="fa-solid fa-angle-left"></i></button></div>
+                        <div class="right-button"><button id="right-button"><i class="fa-solid fa-angle-right"></i></button></div>
+                        <span id="horiscrl">International top sellers</span>
+                        <div class="hori-container">
+                            <div class="slider-box" style="background-image: url(img/book.jpg);"></div>
+                            <div class="slider-box" style="background-image: url(img/book.jpg);"></div>
+                            <div class="slider-box" style="background-image: url(img/book.jpg);"></div>
+                            <div class="slider-box" style="background-image: url(img/book.jpg);"></div>
+                            <div class="slider-box" style="background-image: url(img/book.jpg);"></div>
+                            <div class="slider-box" style="background-image: url(img/book.jpg);"></div>
+                            <div class="slider-box" style="background-image: url(img/book.jpg);"></div>
+    
+                            <div class="slider-box" style="background-image: url(img/book.jpg);"></div>
+                            <div class="slider-box" style="background-image: url(img/book.jpg);"></div>
+                            <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+                            <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+                            <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+                            <div class="slider-box" style="background-image: url(img/book.jpg);"></div>
+                            <div class="slider-box" style="background-image: url(img/hr-img.jpg);"></div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <!--Contaner 2  -->
+                <div class="container2">
+                    <div class="box4">
+                        <span id="span1">For your Fitness Needs</span>
+                        <div class="box-img" style="background-image: url(img/gym.jpg);"></div>
+                        <a href="#">Shop Now</a>
+                    </div>
+                    <div class="box4">
+                        <span id="span1">For your Fitness Needs</span>
+                        <div class="box-img" style="background-image: url(img/gym.jpg);"></div>
+                        <a href="#">Shop Now</a>
+                    </div>
+                    <div class="box4">
+                        <span id="span1">For your Fitness Needs</span>
+                        <div class="box-img" style="background-image: url(img/gym.jpg);"></div>
+                        <a href="#">Shop Now</a>
+                    </div>
+                    <div class="box4">
+                        <span id="span1">For your Fitness Needs</span>
+                        <div class="box-img" style="background-image: url(img/gym.jpg);"></div>
+                        <a href="#">Shop Now</a>
+                    </div>
+                </div>
+
+            </div>  
+        </div>
+    </main>
+    <footer>
+        <div class="footer1">
+            <div class="footerSignIn">
+                <span style="font-size: 13px;">See personalized recommendations</span>
+                <a href="#"><button id="signIn">Sign in</button></a>
+                <span id="newCus">New customer?<a href="#"> Start here</a></span>
+            </div>
+        </div>
+
+        <div class="footer2">
+            <span>Back to top</span>  
+        </div>
+
+        <div class="footer3">
+            <div class="footerContainer">
+                <section>
+                    <h3>Get to Know Us</h3>
+                    <ul>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                        <li>Anout Amazon</li>
+                        <li>Investor Relations</li>
+                        <li>Amazon Devices</li>
+                        <li>Amazon Science</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Get to Know Us</h3>
+                    <ul>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                        <li>Anout Amazon</li>
+                        <li>Investor Relations</li>
+                        <li>Amazon Devices</li>
+                        <li>Amazon Science</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Get to Know Us</h3>
+                    <ul>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                        <li>Anout Amazon</li>
+                        <li>Investor Relations</li>
+                        <li>Amazon Devices</li>
+                        <li>Amazon Science</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Get to Know Us</h3>
+                    <ul>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                        <li>Anout Amazon</li>
+                        <li>Investor Relations</li>
+                        <li>Amazon Devices</li>
+                        <li>Amazon Science</li>
+                    </ul>
+                </section>
+            </div>
+
+        </div>
+        <div class="lastFooter">
+            <table>
+                <tr>
+                    <th colspan="4">
+                        <h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th>
+                    <th colspan="4"><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th>
+                </tr>
+                <tr>
+                    <th colspan="2"><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th>
+                    <th colspan="2"><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th>
+                    <th colspan="2"><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th>
+                    <th colspan="2"><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th>
+                </tr>
+                <tr>
+                    <th colspan="2"><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th>
+                    <th><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th>
+                    <th colspan="2", rowspan="2"><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th>
+                    <!-- <th><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th> -->
+                    <th><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th>
+                    <th colspan="2"><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th>
+                </tr>
+                <tr>
+                    <th><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th>
+                    <th><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th>
+                    <!-- <th><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th>
+                    <th><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th> -->
+                    <th><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th>
+                    <th><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th>
+                    <th><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th>
+                    <th><h5>Amazon Music</h5>
+                        Stream millions <br>
+                        of songs</th></th>
+                </tr>
+            </table>
+
+        </div>
+
+        
+    </footer>
+
+</body>
+</html>
